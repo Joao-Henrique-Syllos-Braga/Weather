@@ -8,12 +8,19 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="local">Local</h1>
-        <img class="weather" src="" alt="Clima Ilustração">
-        <p class="temperature">20</p>
-        <p class="description">Céu Claro
-            <img class="weatherP" src="" alt="">
+        <h1 class="local" id="local">Local</h1>
+        <img id="localImg" class="weather" src="" alt="Clima Ilustração">
+        <p id="img" class="temperature">20</p>
+        <p id="description" class="description">Céu Claro
+            <img id="img" class="weatherP" src="" alt="">
         </p>
     </div>
+
+    <form class="getLocal" action="">
+        <input type="text" class="getLocal-quest" placeholder="Digite aqui o local" id="localQuest">
+        <button class="submit" id="submit">Buscar</button>
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>

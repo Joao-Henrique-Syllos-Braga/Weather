@@ -9,9 +9,9 @@ body {
     background-color: #313139;
     width: 600px;
     height: 700px;
-    border: solid 1px #39393d;
     border-radius: 10px;
     box-shadow: 0 0 10px #39393d;
+    border: solid 1px #39393d;
     margin: auto;
     margin-top: 100px;
     display: flex;
@@ -50,4 +50,44 @@ body {
     margin-top: 10px;
     display: flex;
     align-items: center;
+}
+
+.getLocal {
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #313139;
+    box-shadow: 0 0 10px #39393d;
+    border: solid 1px #39393d;
+    border-radius: 10px;
+}
+
+.getLocal-quest {
+    background-color: #39393d;
+    border: none;
+    padding: 20px;
+    color: #58585e;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+
+.submit {
+    background-color: #39393d;
+    border: none;
+    padding: 20px;
+    color: #58585e;
+    width: 80px;
+    border-radius: 0 10px 10px 0;
+}
+
+.submit:hover {
+    background-color: #fe4545;
+    transition: 0.2s;
+    color: white;
+    border-radius: 10px;
 }
